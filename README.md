@@ -21,7 +21,7 @@
 ### 1.2 Environment Configuration
 - [ ] Configure development environment
   - [X] Ensure Docker Desktop is correctly installed and configured
-  - [ ] Set up version control and Git workflow
+  - [X] Set up version control and Git workflow
   - [ ] Install necessary development tools and dependencies
 - [ ] Document all setup procedures in the repository
 
