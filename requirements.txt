@@ -1,0 +1,22 @@
+# LLM libraries
+llama-cpp-python==0.2.11
+transformers==4.34.0
+accelerate==0.23.0
+
+# API and server
+fastapi==0.104.0
+uvicorn==0.23.2
+pydantic==2.4.2
+
+# Utilities
+numpy==1.26.0
+pandas==2.1.1
+
+# Security
+python-jose==3.3.0
+passlib==1.7.4
+python-multipart==0.0.6
+
+# Monitoring and logging
+prometheus-client==0.17.1
+loguru==0.7.2

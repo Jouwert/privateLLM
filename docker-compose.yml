@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  llm-api:
+    build: .
+    ports:
+      - "8080:8080"
+    volumes:
+      - .:/app
+      - ./models:/app/models
+    environment:
+      - API_HOST=0.0.0.0
+      - API_PORT=8080
+      - MODEL_PATH=/app/models/model.gguf
+      - LOG_LEVEL=DEBUG
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
