@@ -57,3 +57,4 @@ data/private/
 # Misc
 .DS_Store
 Thumbs.db
+bin/
