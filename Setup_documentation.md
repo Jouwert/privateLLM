@@ -467,3 +467,35 @@ pip install -r requirements.txt
 ```
 
 When your virtual environment is activated, you should see `(venv)` at the beginning of your command prompt. After activating the virtual environment, you can use `pip` instead of `pip3`.
+
+### Setting up using Git repo
+
+To reinstall everything using Git, follow these steps:
+
+1. **Clone the repository:**
+   Navigate to the directory where you want to store your project and run:
+   ```bash
+   git clone https://github.com/Jouwert/privateLLM.git
+   ```
+
+2. **Navigate into the cloned directory:**
+   ```bash
+   cd privateLLM
+   ```
+
+3. **Create a new virtual environment:**
+   ```bash
+   python3 -m venv privateLLM
+   ```
+
+4. **Activate the virtual environment:**
+   ```bash
+   source privateLLM/bin/activate
+   ```
+
+5. **Install dependencies (if you have a `requirements.txt`):**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+Let me know if you need any further assistance!
