@@ -495,7 +495,7 @@ To reinstall everything using Git, follow these steps:
 
 5. **Install dependencies (if you have a `requirements.txt`):**
    ```bash
-   pip install -r requirements.txt
+   pip3 install -r requirements.txt
    ```
 
 Let me know if you need any further assistance!
