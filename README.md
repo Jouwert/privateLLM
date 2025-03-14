@@ -35,8 +35,10 @@
 ## Phase 2: Docker Container Configuration
 
 ### 2.1 Base Image Selection
+- [ ] Develop use case and establish LLM and UI requirements
 - [ ] Research and select appropriate base LLM model (options: Llama 2, Mistral, Falcon)
 - [ ] Evaluate model size options based on performance needs vs. resource constraints
+- [ ] Select user interface (OpenI UI?)
 - [ ] Document model selection rationale and licensing considerations
 
 ### 2.2 Docker Image Creation
