@@ -21,8 +21,8 @@
 ### 1.2 Environment Configuration
 - [ ] Configure development environment
   - [X] Ensure Docker Desktop is correctly installed and configured
-  - [ ] Set up version control and Git workflow
-  - [ ] Install necessary development tools and dependencies
+  - [X] Set up version control and Git workflow
+  - [X] Install necessary development tools and dependencies
 - [ ] Document all setup procedures in the repository
 
 ### 1.3 Security Planning
@@ -35,8 +35,10 @@
 ## Phase 2: Docker Container Configuration
 
 ### 2.1 Base Image Selection
+- [ ] Develop use case and establish LLM and UI requirements
 - [ ] Research and select appropriate base LLM model (options: Llama 2, Mistral, Falcon)
 - [ ] Evaluate model size options based on performance needs vs. resource constraints
+- [ ] Select user interface (OpenI UI?)
 - [ ] Document model selection rationale and licensing considerations
 
 ### 2.2 Docker Image Creation
